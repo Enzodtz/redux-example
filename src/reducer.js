@@ -3,7 +3,6 @@ import { increment, decrement } from "./actions";
 
 const initialState = {
   value: 0,
-  status: "idle",
 };
 
 const reducer = createReducer(initialState, {
